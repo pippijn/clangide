@@ -1,0 +1,48 @@
+.code {
+	border-collapse: collapse;
+	width: 99%;
+	font-family: "DejaVu Sans Mono", monospace;
+	font-size: 9pt;
+	white-space: pre-wrap;
+	line-height: 1.2em;
+}
+
+.comment {
+	color: green;
+	font-style: oblique;
+}
+
+.keyword {
+	color: blue;
+	font-weight: bold;
+}
+
+.string_literal {
+	color: red;
+}
+
+.directive {
+	color: darkmagenta;
+}
+
+.expansion {
+	display: none;
+}
+
+.macro:hover .expansion {
+	display: block;
+	border: 2px solid #FF0000;
+	padding: 2px;
+	background-color: #FFF1F0;
+	font-weight: normal;
+	position: absolute;
+	top: -1em;
+	left: 9em;
+	z-index: 1;
+}
+
+.macro {
+	color: darkmagenta;
+	background-color: LemonChiffon;
+	position: relative;
+}
