@@ -1,7 +1,7 @@
 Clang IDE
 =========
 
-Tiny C++ IDE with Clang integration.
+Tiny C++ editor with Clang integration.
 
 [Git repository](https://github.com/pippijn/clangide)
 
